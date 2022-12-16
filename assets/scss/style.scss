@@ -1,0 +1,46 @@
+// ------ トップページ ------ //
+
+.-ps-style-img .p-postList__link,
+.-type-thumb .p-postList__link,
+.p-postList__thumb {
+  border-radius: 6px;
+}
+
+.p-pickupBanners__item .c-bannerLink,
+.p-postList__thumb {
+  box-shadow: none;
+}
+
+// ------ トップページ end ------ //
+
+
+// ------ サイドバー ------ //
+
+.sct_banner {
+  display: block;
+  text-align: center;
+
+  img {
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}
+
+// ------ サイドバー end ------ //
+
+
+// ------ 記事ページ ------ //
+
+.p-articleThumb__img,
+.p-articleThumb__youtube {
+  box-shadow: none;
+}
+
+.post_content {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+// ------ 記事ページ end ------ //
