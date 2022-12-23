@@ -29,3 +29,37 @@
   display: block;
   margin: 0 auto;
 }
+
+.column_dl .column_dt {
+  padding: 1.5em;
+  background-color: #E9F9F8;
+}
+.column_dl .column_dd {
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+}
+.column_dl .column_dd ul,
+.column_dl .column_dd ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
+}
+.column_dl .column_dd ul li .list_sub,
+.column_dl .column_dd ol li .list_sub {
+  font-weight: 700;
+}
+.column_dl .column_dd .p_1em {
+  padding: 1em;
+}
+.column_dl .column_dd .pt_1em {
+  padding-top: 1em;
+}
+.column_dl .column_dd .pb_1em {
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=style.css.map */

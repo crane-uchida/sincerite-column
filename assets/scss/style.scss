@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@use "defines/index"as *;
+
 // ------ トップページ ------ //
 
 .-ps-style-img .p-postList__link,
@@ -44,3 +47,46 @@
 }
 
 // ------ 記事ページ end ------ //
+
+
+// ------ 固定“運営会社情報”ページ ------ //
+
+.column_dl {
+
+  .column_dt {
+    padding: 1.5em;
+    background-color: $base;
+  }
+
+  .column_dd {
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+
+    ul,
+    ol {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+
+      li {
+        .list_sub {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .p_1em {
+      padding: 1em;
+    }
+
+    .pt_1em {
+      padding-top: 1em;
+    }
+
+    .pb_1em {
+      padding-bottom: 1em;
+    }
+  }
+}
+
+// ------ 固定“運営会社情報”ページ end ------ //
