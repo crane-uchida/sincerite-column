@@ -13,6 +13,7 @@
 .sct_banner {
   display: block;
   text-align: center;
+  cursor: pointer;
 }
 .sct_banner img {
   cursor: pointer;
@@ -28,6 +29,15 @@
 .post_content img {
   display: block;
   margin: 0 auto;
+}
+
+.sct_cta_partner {
+  display: block;
+  background-image: url(http://column.local/wp-content/uploads/2023/04/cta_partner_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: var(--swl-radius--8, 0);
 }
 
 .column_dl .column_dt {
